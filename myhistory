@@ -1,0 +1,98 @@
+: 1717341073:0;mv README README.md
+: 1717341138:0;git init
+: 1717341141:0;git branch -M main
+: 1717341147:0;git remote add origin git@github.com:Adrienfdupont/devops.git
+: 1717341152:0;git add .
+: 1717341153:0;git commit -m 'init project'
+: 1717341156:0;git push -uf origin main
+: 1717341447:0;rm -rf .git
+: 1717341464:0;git remote add origin git@github.com:Adrienfdupont/devops.git
+: 1717341469:0;git init
+: 1717341472:0;git remote add origin git@github.com:Adrienfdupont/devops.git
+: 1717341492:0;git add .
+: 1717341494:0;git commit -m 'init project'
+: 1717341502:0;git branch -M main
+: 1717341504:0;git push -uf origin main
+: 1717342233:0;touch exo1.s
+: 1717342241:0;./exo1.s
+: 1717342252:0;chmod +x exo1.s
+: 1717342253:0;./exo1.s
+: 1717342322:0;mv exo1.s exo1.sh
+: 1717342323:0;clear
+: 1717342326:0;./exo1.sh
+: 1717342327:0;ls
+: 1717343894:0;man yay
+: 1717343948:0;yay -C
+: 1717343951:0;yay -c
+: 1717343957:0;man yay
+: 1717343967:0;clear
+: 1717343983:0;yay -R brave-bin
+: 1717344408:0;ls /usr/share/applications
+: 1717344472:0;clear
+: 1717344479:0;ls /usr/share/applications | grep discord
+: 1717344481:0;ls /usr/share/applications | grep brave
+: 1717344484:0;ls /usr/share/applications | grep chrome
+: 1717345757:0;ls
+: 1717345761:0;rm -rf BraveSoftware
+: 1717345764:0;ls
+: 1717346832:0;neofetch
+: 1717347286:0;btop
+: 1717350793:0;./exo1.sh
+: 1717351391:0;git stash --include-untracked
+: 1717351405:0;git checkout -b dev
+: 1717351450:0;git checkout -b feat/organise-files
+: 1717351454:0;git stash pop
+: 1717351621:0;git add .
+: 1717351680:0;ls -lR --color=auto "personnages"
+: 1717351726:0;git commit -m 'organise files; list files with permissions'
+: 1717352237:0;clear
+: 1717352291:0;mv personnages/super\ heros/hommes/sans\ cape/linuxman personnages/mascottes/tux
+: 1717352318:0;git add .
+: 1717352378:0;git commit -m 'moved and renamed linuxman to tux'
+: 1717352436:0;mv personnages/super\ heros/ personnages/comics
+: 1717352449:0;git add .
+: 1717352480:0;git commit -m 'renamed directory "super heroes" to "comics"'
+: 1717360840:0;optimus-manager --switch hybrid
+: 1717365522:0;btop
+: 1717366194:0;echo "Bruce Wayne hides behind this character" > personnages/comics/hommes/cape/batman
+: 1717366209:0;git add .
+: 1717366228:0;git commit -m 'filled batman file'
+: 1717366266:0;echo "he lives in Gotham" >> personnages/comics/hommes/cape/batman
+: 1717366271:0;git add .
+: 1717366297:0;git commit -m 'added details in batman file'
+: 1717366331:0;echo "Homer Simpson hides behind this character" > personnages/comics/hommes/sans\ cape/daredevil
+: 1717366334:0;git add .
+: 1717366354:0;git commit -m 'filled daredevil file'
+: 1717366737:0;git branch -m feat/organise-files feat/file-system-management
+: 1717366953:0;echo "daredevil is a blind comic character" > personnages/comics/hommes/sans\ cape/daredevil
+: 1717366963:0;cat personnages/comics/hommes/sans\ cape/daredevil
+: 1717366973:0;git add .
+: 1717367340:0;git commit -m 'corrected daredevil file'
+: 1717367395:0;vim test1
+: 1717367414:0;cat test1 > test2
+: 1717367418:0;cat test2
+: 1717367425:0;rm test1 test2
+: 1717367478:0;cat personnages/comics/hommes/cape/batman > personnages/mascottes/mixdarbat && cat personnages/comics/hommes/sans\ cape/daredevil >> personnages/mascottes/mixdarbat
+: 1717367494:0;git add .
+: 1717367538:0;git commit -m 'merged batman and dardevil into new mascotte'
+: 1717369430:0;clear
+: 1717369552:0;sudo useradd fanboy
+: 1717369675:0;sudo userdel fanboy
+: 1717369687:0;sudo useradd -m fanboy
+: 1717369696:0;cp personnages /home/fanboy
+: 1717369720:0;cp -r personnages /home/fanboy
+: 1717369734:0;sudo cp -r personnages /home/fanboy
+: 1717369750:0;ls /home/fanboy
+: 1717369756:0;sudo ls /home/fanboy
+: 1717369786:0;su root
+: 1717370069:0;git add .
+: 1717370093:0;git commit -m 'created symbolic links to characters repositories'
+: 1717370122:0;su root
+: 1717370288:0;git add .
+: 1717370306:0;git commit -m 'created file to list character content'
+: 1717370336:0;cat 14.txt | grep -v total > 15.txt
+: 1717370356:0;git add .
+: 1717370381:0;git commit -m 'created 14.txt copy without "total" statement
+: 1717370383:0;git commit -m 'created 14.txt copy without "total" statement'
+: 1717370429:0;cat .zsh_history
+: 1717370502:0;tail -n 100 /home/adrien/.zsh_history
